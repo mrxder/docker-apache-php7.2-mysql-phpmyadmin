@@ -1,7 +1,7 @@
 # Apache2 with php7.2 and mariadb with phpmyadmin on Ubuntu 18.04 LTS for Development 
 This is a docker image meant for modern php and mysql(mariadb) development. Don't use this image in production.
 
-To access site contents from utside the container you should map /var/www
+To access site contents from outside the container you should map /var/www
 
 ## How to use:
 `docker run -d -p 8080:80 -d 3306:3306 -v /home/user/html:/var/www/html todo`
