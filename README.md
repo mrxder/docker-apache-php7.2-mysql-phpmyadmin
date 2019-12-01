@@ -13,3 +13,6 @@ To access site contents from outside the container you should map /var/www
 * you can access the database with this user: devroot password: 123
 
 The docker container is started with the -d flag so it will run in the background. To run commands or edit settings inside the container run `docker exec -ti /bin/bash'
+
+## Contribute
+If you find errors or want to improve this image feel free to make pull requests or open an issue.
